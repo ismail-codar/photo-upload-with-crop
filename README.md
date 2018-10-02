@@ -1,9 +1,9 @@
 ### React component for uploading, croping and posting images
 
 **Used:**
-React-Cropper https://github.com/roadmanfong/react-cropper
-Axios
-CSS modules - setup to use CSS modules and external raw css imports - https://github.com/css-modules/css-modules/pull/65 (resource queries)
+- React-Cropper https://github.com/roadmanfong/react-cropper
+- Axios
+- CSS modules - setup to use CSS modules and external raw css imports - https://github.com/css-modules/css-modules/pull/65 (resource queries)
 
 **How-to:**
 Upload image from disc. Crop it. Post it using axios. Upload Progress set to show in console.
