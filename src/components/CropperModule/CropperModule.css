@@ -1,0 +1,148 @@
+.content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-weight: 500;
+    margin: 100px;
+}
+
+.title {
+    margin-bottom: 20px;
+    font-size: 18px;
+    line-height: 1.5em;
+    letter-spacing: 0.4px;
+    text-align: center;
+    color: #000000;
+}
+
+.button, .buttonCrop, .buttonReset, .buttonUploadCenter {
+    width: 145px;
+    height: 46px;
+    border-radius: 7px;
+    background-color: #4a90e2;
+    box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.05);
+    font-size: 14px;
+    letter-spacing: 0.3px;
+    text-align: center;
+    color: #ffffff;
+    cursor: pointer;
+    border: 0;
+    transition: 250ms;
+}
+
+.buttonCrop, .buttonReset{
+    width: 83px;
+    height: 45px;
+    font-size: 11px;
+    position: absolute;
+    right: 14px;
+}
+
+.buttonReset{
+    bottom: 10px;
+}
+
+.buttonCrop{
+    bottom: 154px;
+}
+
+.buttonUploadCenter {
+    position: absolute;
+    width: 200px;
+    height: 100px;
+}
+
+.button:hover, .buttonCrop:hover, .buttonReset:hover, .buttonUploadCenter:hover {
+    color:#4a90e2;
+    background-color: #a1c8f5;
+    border: 2px solid #4a90e2;
+}
+
+.buttonText {
+    width: 145px;
+    height: 46px;
+    background: none;
+    border-radius: 7px;
+    font-size: 14px;
+    letter-spacing: 0.3px;
+    text-align: center;
+    color: #4a90e2;
+    cursor: pointer;
+    border: 0;
+}
+
+.uploadInput {
+    width: 700px;
+    height: 52px;
+    border-radius: 7px;
+    background-color: #f6f6f6;
+    border: dashed 1px #979797;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 18px;
+}
+
+.uploadInputButton {
+    background: none;
+    font-size: 14px;
+    letter-spacing: 0.3px;
+    text-align: center;
+    color: #4a90e2;
+    cursor: pointer;
+    border: 0;
+}
+
+.uploadInputFilename {
+    font-size: 14px;
+    letter-spacing: 0.4px;
+    overflow: hidden;
+    max-width: 540px;
+}
+
+.uploadPhotoCrop {
+    margin: 12px 0 34px 0;
+    width: 700px;
+    height: 350px;
+    border-radius: 7px;
+    background-color: #e2e2e2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.thumb {
+    max-height: 220px;
+    max-width: 470px;
+}
+
+.rotateBtnL, .rotateBtnR  {
+    height: 35px;
+    position: absolute;
+    top: 10px;
+    right: 62px;
+    cursor: pointer;
+}
+.rotateBtnR {
+    right: 10px;
+    transform: scaleX(-1);
+}
+
+.buttons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 400px;
+}
+
+.rotateInstruction{
+    width: 100%;
+    font-size: 11px;
+    letter-spacing: 0.3px;
+    text-align: center;
+    color: #4a90e2;
+    position: absolute;
+    bottom: -30px;
+}
