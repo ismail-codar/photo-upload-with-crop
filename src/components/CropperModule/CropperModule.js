@@ -94,7 +94,7 @@ class CropperModule extends Component {
                         <Cropper
                             ref='cropper'
                             src={this.state.thumbnail}
-                            style={{height: 330, width: 460, margin: '0 auto'}}
+                            style={{height: 330, width: 460}}
                             guides={true}
                             autoCropArea={1}
                             viewMode={0}
